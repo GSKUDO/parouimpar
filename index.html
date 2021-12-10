@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Par ou Impar</title>
+        <meta charset="utf-8" lang="pt-br">
+        <link rel="stylesheet" href="styles.css">
+    </head> 
+    <body>
+        <p>Coloque dez números:</p>
+        <div>
+            <input type="number" id="um">
+            <input type="number" id="dois">
+            <input type="number" id="tres">
+            <input type="number" id="quatro">
+            <input type="number" id="cinco">
+        </div>
+        <div>
+            <input type="number" id="seis">
+            <input type="number" id="sete">
+            <input type="number" id="oito">
+            <input type="number" id="nove">
+            <input type="number" id="dez">
+        </div>
+        <button onclick="separar()">Enviar</button>
+        <div>
+            <p>Números pares: </p> 
+            <p id="parhtml"></p>
+            <p>Números ímpares: </p>
+            <p id="imparhtml"></p>
+        </div>
+        <script src="parouimpar.js"></script>
+    </body>
